@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Anime from "./landing/anime"
+import Header from "./Components/Header/Header"
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <title>AnbuWeebs</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Anime/>
+      <Header/>
     </div>
   );
 }
