@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+html,
+body,
+#__next {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+/* custom css here */
+
+@import "tailwindcss/utilities";

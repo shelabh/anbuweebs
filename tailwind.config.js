@@ -1,18 +1,18 @@
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  content: ["./src/**/**/*.{ts,tsx,js,jsx}"],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    
     extend: {
       fontFamily: {
         Fjalla: ["Fjalla One", "sans-serif"],
         },
-        spacing: {
-          '13': '3.25rem',
-          '15': '3.75rem',
-          '128': '32rem',
-          '144': '36rem',
-        },
+      colors:{
+        magna:{100:"#ec8058"}
+      }
     },
+  },
+  variants: {
+    extend: {},
   },
   plugins: [],
 }
